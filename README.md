@@ -8,11 +8,11 @@ The task for this project was to write a python program that acts as a reporting
 
 1. Make sure you have Python2.7, Vagrant and VirtualBox installed on your computer. (Download links are provided below.)
 
-Python2.7 Download
+    Python2.7 Download
 
-VirtualBox Download
+    VirtualBox Download
 
-Vagrant Download
+    Vagrant Download
 
 2. Download the data for the newsdata database [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
 
