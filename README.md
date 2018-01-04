@@ -8,33 +8,16 @@ The task for this project was to write a python program that acts as a reporting
 
 1. Make sure you have Python2.7, Vagrant and VirtualBox installed on your computer. (Download links are provided below.)
 
-    Python2.7 Download
+    [Python2.7 Download](https://www.python.org/downloads/)
 
-    VirtualBox Download
+    [VirtualBox Download (5.1.30)](https://www.virtualbox.org/wiki/Downloads)
 
-    Vagrant Download
+    [Vagrant Download (1.8.5)](https://releases.hashicorp.com/vagrant/?_ga=2.146818743.1445943320.1515078265-241047305.1515078265)
 
-2. Download the data for the newsdata database [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
+2. [Downlaod the vm]() (if you don't already have one)
 
-3. After unzipping the file, place the newsdata.sql file into your vagrant directory.
+3. Download the data for the newsdata database [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
 
-4. Make sure you cd into the vagrant directory in your console window. Load the data by using the command ```psql -d news -f newsdata.sql```.
+4. After unzipping the file, place the newsdata.sql file into your vagrant directory.
 
-5. Connect to the database using the command ```psql -d news```.
-
-6. Creating views:
-
-7. Place the python file (newsdata.py) from this repository into your vagrant directory.
-
-8. Using your console window, run the python program with ```python newsdata.py```.
-
-## Resources
-
-Python2.7
-
-VirtualBox
-
-Vagrant
-
-Newsdata File
-
+5. Make sure you cd into the vagrant directory in your console window. Load the data by using the command ```psql -d news -f newsdata.sql```.
