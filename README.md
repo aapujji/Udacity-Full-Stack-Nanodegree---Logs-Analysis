@@ -28,11 +28,11 @@ The task for this project was to write a python program that acts as a reporting
 
     a. Create view for ```errors_table```:
 
-        create view errors_table as select date(time) as date, count(*) as total, sum(case when status != '200 OK' then 1 else 0 end) as err from log group by date(time) order by err;
+        CREATE VIEW errors_table AS SELECT date(time) AS date, count(*) AS total, sum(case when status != '200 OK' then 1 else 0 end) AS err FROM log GROUP BY date(time) ORDER BY err;
 
     b. Create view for ```err_perc```:
     
-        create view err_perc as select date, cast(err as float)/cast(total as float)*100 as perc from errors_table group by date, perc order by perc;
+        CREATE VIEW err_perc AS SELECT date, cast(err as float)/cast(total as float)*100 AS perc FROM errors_table GROUP BY date, perc ORDER BY perc;
         
 8. Place the python file (newsdata.py) from this repository into your vagrant directory.
 
