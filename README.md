@@ -32,7 +32,7 @@ The task for this project was to write a python program that acts as a reporting
 
     b. Create view for ```err_perc```:
     
-        ```create view err_perc as select date, cast(err as float)/cast(total as float)*100 as perc from errors_table group by date, perc order by perc;```
+        create view err_perc as select date, cast(err as float)/cast(total as float)*100 as perc from errors_table group by date, perc order by perc;
         
 8. Place the python file (newsdata.py) from this repository into your vagrant directory.
 
