@@ -28,7 +28,7 @@ The task for this project was to write a python program that acts as a reporting
 
     a. Create view for ```errors_table```:
 
-        ```create view errors_table as select date(time) as date, count(*) as total, sum(case when status != '200 OK' then 1 else 0 end) as err from log group by date(time) order by err;```
+        create view errors_table as select date(time) as date, count(*) as total, sum(case when status != '200 OK' then 1 else 0 end) as err from log group by date(time) order by err;
 
     b. Create view for ```err_perc```:
     
